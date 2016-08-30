@@ -1,0 +1,18 @@
+{
+  "name": "webapi-active-query-builder",
+  "version": "1.1.3",
+  "description": "Active Query Builder Web API lets modify SQL queries for different database servers using RESTful HTTP requests.",
+  "license": "Apache-2.0",
+  "main": "src/webapi.activequerybuilder/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "dependencies": {
+    "superagent": "1.7.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
