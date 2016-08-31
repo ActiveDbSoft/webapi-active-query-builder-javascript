@@ -1,5 +1,7 @@
 # WebapiActiveQueryBuilder.ConditionGroup
 
+Group of conditions joined with the same boolean operator.
+
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
