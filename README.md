@@ -56,16 +56,16 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Models
 
- - [WebapiActiveQueryBuilder.Condition](docs/Condition.md)
- - [WebapiActiveQueryBuilder.ConditionGroup](docs/ConditionGroup.md)
- - [WebapiActiveQueryBuilder.HiddenColumn](docs/HiddenColumn.md)
- - [WebapiActiveQueryBuilder.Pagination](docs/Pagination.md)
- - [WebapiActiveQueryBuilder.QueryColumn](docs/QueryColumn.md)
- - [WebapiActiveQueryBuilder.Sorting](docs/Sorting.md)
- - [WebapiActiveQueryBuilder.SqlQuery](docs/SqlQuery.md)
- - [WebapiActiveQueryBuilder.Totals](docs/Totals.md)
- - [WebapiActiveQueryBuilder.Transform](docs/Transform.md)
- - [WebapiActiveQueryBuilder.TransformResult](docs/TransformResult.md)
+ - [WebapiActiveQueryBuilder.Condition](https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript/blob/master/docs/Condition.md)
+ - [WebapiActiveQueryBuilder.ConditionGroup](https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript/blob/master/docs/ConditionGroup.md)
+ - [WebapiActiveQueryBuilder.HiddenColumn](https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript/blob/master/docs/HiddenColumn.md)
+ - [WebapiActiveQueryBuilder.Pagination](https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript/blob/master/docs/Pagination.md)
+ - [WebapiActiveQueryBuilder.QueryColumn](https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript/blob/master/docs/QueryColumn.md)
+ - [WebapiActiveQueryBuilder.Sorting](https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript/blob/master/docs/Sorting.md)
+ - [WebapiActiveQueryBuilder.SqlQuery](https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript/blob/master/docs/SqlQuery.md)
+ - [WebapiActiveQueryBuilder.Totals](https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript/blob/master/docs/Totals.md)
+ - [WebapiActiveQueryBuilder.Transform](https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript/blob/master/docs/Transform.md)
+ - [WebapiActiveQueryBuilder.TransformResult](https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript/blob/master/docs/TransformResult.md)
 
 
 ## Documentation for Authorization
