@@ -41,7 +41,7 @@
 
   /**
    * @module webapi.activequerybuilder/ApiClient
-   * @version 1.1.3
+   * @version 1.1.5
    */
 
   /**

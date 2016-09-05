@@ -45,7 +45,7 @@
   /**
    * The Totals model module.
    * @module webapi.activequerybuilder/model/Totals
-   * @version 1.1.3
+   * @version 1.1.5
    */
 
   /**

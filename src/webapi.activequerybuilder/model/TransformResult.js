@@ -45,7 +45,7 @@
   /**
    * The TransformResult model module.
    * @module webapi.activequerybuilder/model/TransformResult
-   * @version 1.1.3
+   * @version 1.1.5
    */
 
   /**

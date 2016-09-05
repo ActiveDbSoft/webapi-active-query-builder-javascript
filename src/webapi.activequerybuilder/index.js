@@ -62,7 +62,7 @@
    * </pre>
    * </p>
    * @module webapi.activequerybuilder/index
-   * @version 1.1.3
+   * @version 1.1.5
    */
   var exports = {
     /**

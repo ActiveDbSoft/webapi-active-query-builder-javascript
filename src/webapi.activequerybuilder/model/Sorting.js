@@ -45,7 +45,7 @@
   /**
    * The Sorting model module.
    * @module webapi.activequerybuilder/model/Sorting
-   * @version 1.1.3
+   * @version 1.1.5
    */
 
   /**

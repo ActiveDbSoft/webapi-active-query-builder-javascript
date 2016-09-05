@@ -45,7 +45,7 @@
   /**
    * The SqlQuery model module.
    * @module webapi.activequerybuilder/model/SqlQuery
-   * @version 1.1.3
+   * @version 1.1.5
    */
 
   /**

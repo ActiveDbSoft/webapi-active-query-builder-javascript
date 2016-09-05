@@ -50,8 +50,8 @@ All URIs are relative to *https://webapi.activequerybuilder.com*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*WebapiActiveQueryBuilder.ActiveQueryBuilderApi* | [**getQueryColumnsPost**](docs/ActiveQueryBuilderApi.md#getQueryColumnsPost) | **POST** /getQueryColumns | 
-*WebapiActiveQueryBuilder.ActiveQueryBuilderApi* | [**transformSQLPost**](docs/ActiveQueryBuilderApi.md#transformSQLPost) | **POST** /transformSQL | 
+*WebapiActiveQueryBuilder.ActiveQueryBuilderApi* | [**getQueryColumnsPost**] | **POST** /getQueryColumns | 
+*WebapiActiveQueryBuilder.ActiveQueryBuilderApi* | [**transformSQLPost**] | **POST** /transformSQL | 
 
 
 ## Documentation for Models
@@ -72,3 +72,6 @@ Class | Method | HTTP request | Description
 
  All endpoints do not require authorization.
 
+
+## Source code
+Full source code of all clients for Active Query Builder Web API is available on GitHub. Get the source code of javascript here: [https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript](https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript)

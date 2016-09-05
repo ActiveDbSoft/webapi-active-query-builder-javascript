@@ -42,7 +42,7 @@
   /**
    * ActiveQueryBuilder service.
    * @module webapi.activequerybuilder/api/ActiveQueryBuilderApi
-   * @version 1.1.3
+   * @version 1.1.5
    */
 
   /**

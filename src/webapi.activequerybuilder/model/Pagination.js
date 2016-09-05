@@ -45,7 +45,7 @@
   /**
    * The Pagination model module.
    * @module webapi.activequerybuilder/model/Pagination
-   * @version 1.1.3
+   * @version 1.1.5
    */
 
   /**

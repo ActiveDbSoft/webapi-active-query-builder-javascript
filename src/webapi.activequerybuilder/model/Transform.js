@@ -45,7 +45,7 @@
   /**
    * The Transform model module.
    * @module webapi.activequerybuilder/model/Transform
-   * @version 1.1.3
+   * @version 1.1.5
    */
 
   /**

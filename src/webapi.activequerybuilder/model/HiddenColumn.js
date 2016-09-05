@@ -45,7 +45,7 @@
   /**
    * The HiddenColumn model module.
    * @module webapi.activequerybuilder/model/HiddenColumn
-   * @version 1.1.3
+   * @version 1.1.5
    */
 
   /**

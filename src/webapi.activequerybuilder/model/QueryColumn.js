@@ -45,7 +45,7 @@
   /**
    * The QueryColumn model module.
    * @module webapi.activequerybuilder/model/QueryColumn
-   * @version 1.1.3
+   * @version 1.1.5
    */
 
   /**
