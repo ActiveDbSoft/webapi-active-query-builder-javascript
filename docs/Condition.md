@@ -46,9 +46,17 @@ Name | Type | Description | Notes
 
 * `NotIn` (value: `"NotIn"`)
 
-* `Like` (value: `"Like"`)
+* `Contains` (value: `"Contains"`)
 
-* `NotLike` (value: `"NotLike"`)
+* `DoesntContain` (value: `"DoesntContain"`)
+
+* `StartsWith` (value: `"StartsWith"`)
+
+* `DoesntStartWith` (value: `"DoesntStartWith"`)
+
+* `EndsWith` (value: `"EndsWith"`)
+
+* `DoesntEndWith` (value: `"DoesntEndWith"`)
 
 
 

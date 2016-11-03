@@ -1,6 +1,6 @@
 {
   "name": "webapi-active-query-builder",
-  "version": "1.1.6",
+  "version": "1.1.8",
   "description": "Active Query Builder Web API lets modify SQL queries for different database servers using RESTful HTTP requests.",
   "license": "Apache-2.0",
   "main": "src/webapi.activequerybuilder/index.js",
