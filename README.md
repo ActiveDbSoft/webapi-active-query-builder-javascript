@@ -12,35 +12,55 @@ Active Query Builder Web API lets create, analyze and modify SQL queries for dif
 npm install webapi-active-query-builder --save
 ```
 
-### For browser
-
-The library also works in the browser environment via npm and [browserify](http://browserify.org/). After following
-the above steps with Node.js and installing browserify with `npm install -g browserify`,
-perform the following (assuming *main.js* is your entry file):
-
-```shell
-browserify main.js > bundle.js
-```
-
-Then include *bundle.js* in the HTML pages.
-
 ## Getting Started
 
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var WebapiActiveQueryBuilder = require('webapi-active-query-builder');
+var webapi = require('webapi-active-query-builder');
 
-var api = new WebapiActiveQueryBuilder.ActiveQueryBuilderApi()
+var api = new webapi.ActiveQueryBuilderApi();
+var sql = "Select customer_id, first_name From customer";
+var metadataGuid = "b3207f4f-b1f4-4dc2-979b-7724ed2d0221";
 
-var query = new WebapiActiveQueryBuilder.SqlQuery(); // {SqlQuery} Information about SQL query and it's context.
+var query = new webapi.SqlQuery(); // {SqlQuery} Information about SQL query and it's context.
+query.guid = metadataGuid;
+query.text = sql;
 
-api.getQueryColumnsPost(query).then(function(data) {
-  console.log('API called successfully. Returned data: ' + data);
-}, function(error) {
-  console.error(error);
-});
+api.getQueryColumnsPost(query)
+	.then(function(columns) {
+  		console.log('API called successfully. Returned columns: ' + columns);
+	});
 
+var transform = new webapi.Transform();
+transform.guid = metadataGuid;
+transform.sql = sql;
+
+var filter = new webapi.ConditionGroup();
+            
+var condition = new webapi.Condition();
+condition.field = 'customer_id';
+condition.conditionOperator = webapi.Condition.ConditionOperatorEnum.Greater;
+condition.values = [10];
+
+filter.conditions = [condition];
+
+var page = new webapi.Pagination();
+page.skip = 10;
+page.take = 5;
+
+var order = new webapi.Sorting();
+order.field = 'customer_id';
+order.order = webapi.Sorting.OrderEnum.asc;
+
+transform.filter = filter;
+transform.pagination = page;
+transform.sortings = [order];
+
+api.transformSQLPost(transform)
+	.then(function (result) {
+		console.log('API called successfully. Returned query: ' + result.sql);
+	});
 
 ```
 
@@ -70,8 +90,9 @@ Class | Method | HTTP request | Description
 
 ## Documentation for Authorization
 
- All endpoints do not require authorization.
+All endpoints do not require authorization.
 
 
 ## Source code
+
 Full source code of all clients for Active Query Builder Web API is available on GitHub. Get the source code of javascript here: [https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript](https://github.com/ActiveDbSoft/webapi-active-query-builder-javascript)
